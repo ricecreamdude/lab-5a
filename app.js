@@ -13,7 +13,7 @@ function sum(a, b) { //eslint-disable-line
 }
 
 // Here is the test for sum(); uncomment it to run it
-// testSum(4, 7);
+testSum(4, 7);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -23,13 +23,24 @@ Write a function called multiply() that takes in two numbers as arguments and re
 "The product of 5 and 9 is 45."
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiply() function and see if the test passes.*/
 
-// Write your code here
+//Define two numbers: Write your code here
 function multiply(a, b) { //eslint-disable-line
+
+//Multiplication
+  var numberMulitplication = a * b;
+
+  // var productSumTotal = "The product of 5 and 9 is 45.";
+  var productSumTotal = "The product of " + a + " and " + b + " is " + numberMulitplication + ".";
+
+  //Creates an array
+  //Returns two variables in an array
+  return [numberMulitplication, productSumTotal];
 
 }
 
 // Here is the test for multiply(); uncomment it to run it
 testMultiply(5,9);
+// testMultiply(1,12);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
